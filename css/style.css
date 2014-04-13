@@ -1,10 +1,11 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: rgb(65, 65, 65);
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #8c8c8c;
     background-color: #fafafa;
-    text-shadow: 0 1px 0 #fff;
+    font-weight: 300;
+    /*text-shadow: 0 1px 0 #fff;*/
     /*text-shadow: 0 0 1px rgba(0, 0, 0, .8), 0 0 35px rgba(0, 0, 0, .5);*/
 }
 
@@ -37,6 +38,11 @@ p {
     text-align: center !important;
 }
 
+.imprint {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
 #conditions {
     font-size: 14px;
     text-align: left;
@@ -51,7 +57,7 @@ p {
 }
 
 a {
-    color: #28c3ab;
+    color: #3498db;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -59,8 +65,8 @@ a {
 
 a:hover,
 a:focus {
-    text-decoration: none;
-    color: #176e61;
+    text-decoration: underline;
+    color: #3498db;
 }
 
 .light {
@@ -84,7 +90,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: rgb(65, 65, 65);
+    color: #8c8c8c;
 }
 
 .navbar-custom .nav li a {
@@ -103,7 +109,7 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: rgb(65, 65, 65);
+    color: #8c8c8c;
 }
 
 .navbar-toggle:focus,
@@ -144,7 +150,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: rgb(65, 65, 65);
+    color: #8c8c8c;
 }
 
 .intro-img {
@@ -174,6 +180,13 @@ a:focus {
 }
 
 
+.brand-heading, .fa-angle-double-down {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 0px 35px;
+}
+
+
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
@@ -192,10 +205,10 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid rgb(65, 65, 65);
-    border-radius: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
     font-size: 40px;
-    color: rgb(65, 65, 65);
+    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -205,8 +218,8 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: rgb(65, 65, 65);
-    background: rgba(255,255,255,.1);
+    color: #fff;
+    background: rgba(255,255,255,.2);
 }
 
 .page-scroll .btn-circle i.animated {
@@ -262,13 +275,13 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
-    color: rgb(65, 65, 65);
+    padding: 30px 0;
+    color: #8c8c8c;
     /*background: url(../img/intro-bg.jpg) no-repeat center center scroll;*/
     background-color: #fafafa;
     -webkit-background-size: cover;
@@ -294,7 +307,7 @@ a:focus {
 
     #map {
         height: 400px;
-        margin-top: 250px;
+        margin-top: 230px;
     }
 }
 
@@ -308,17 +321,18 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #28c3ab;
-    color: #28c3ab;
+    border: 1px solid #3498db;
+    color: #3498db;
     background-color: transparent;
+    margin-bottom: 100px;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #28c3ab;
+    border: 1px solid #3498db;
     outline: 0;
-    color: #000;
-    background-color: #28c3ab;
+    color: #fafafa;
+    background-color: #3498db;
 }
 
 .btn-huge {
@@ -382,3 +396,8 @@ iframe {
     border: 0;
     height: 500px;
     background-color: #fafafa;
+}
+
+#ticket_information_wrapper, .ticket_table, #ticket_table, #OrderReg {
+    background-color: #fafafa !important;
+}
