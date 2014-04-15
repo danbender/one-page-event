@@ -17,6 +17,6 @@ $(function() {
     });
 });
 
-$( document ).ready(function() {
+$(document).ready(function() {
   document.body.scrollTop = document.documentElement.scrollTop = 0;
 })
