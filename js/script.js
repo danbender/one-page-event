@@ -6,7 +6,7 @@ $(window).scroll(function() {
     }
 });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
+//page scrolling requires jQuery Easing. #lazylife
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -16,3 +16,7 @@ $(function() {
         event.preventDefault();
     });
 });
+
+$( document ).ready(function() {
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
+})
