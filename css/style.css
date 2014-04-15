@@ -5,8 +5,6 @@ body {
     color: #8c8c8c;
     background-color: #fafafa;
     font-weight: 300;
-    /*text-shadow: 0 1px 0 #fff;*/
-    /*text-shadow: 0 0 1px rgba(0, 0, 0, .8), 0 0 35px rgba(0, 0, 0, .5);*/
 }
 
 html {
@@ -48,6 +46,10 @@ p {
     text-align: left;
 }
 
+#scroll-page {
+    padding-top: 300px;
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
@@ -75,7 +77,6 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: rgb(140, 140, 140);
@@ -141,9 +142,7 @@ a:focus {
         opacity: 0.85;
     }
 
-    .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
-    }
+
 }
 
 .intro {
@@ -156,13 +155,12 @@ a:focus {
 }
 
 .intro-img {
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    /*-webkit-filter: blur(20px);*/
 }
 
 .intro-body {
@@ -174,8 +172,11 @@ a:focus {
 .brand-heading {
     font-size: 30px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
+    color: transparent !important;
+    text-shadow: none !important;
 }
+
 
 
 .brand-heading, .fa-angle-double-down {
@@ -203,8 +204,6 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    /*border-radius: 50%;*/
-    /*border: 1px solid #fff;*/
     font-size: 40px;
     color: #fff;
     background: 0 0;
@@ -347,6 +346,11 @@ a:focus {
     ul.banner-social-buttons>li:last-child {
         margin-bottom: 0;
     }
+
+    #scroll-page {
+    padding-top: 170px;
+}
+
 }
 
 ::-moz-selection {
@@ -388,3 +392,4 @@ iframe {
 #ticket_information_wrapper, .ticket_table, #ticket_table, #OrderReg {
     background-color: #fafafa !important;
 }
+
