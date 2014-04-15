@@ -1,15 +1,12 @@
-//jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
-        // $(".intro-img").addClass("blurry");
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        // $(".intro-img").removeClass("blurry");
     }
 });
 
-//jQuery for page scrolling feature - requires jQuery Easing plugin
+//page scrolling requires jQuery Easing. #lazylife
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -19,3 +16,7 @@ $(function() {
         event.preventDefault();
     });
 });
+
+$( document ).ready(function() {
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
+})
