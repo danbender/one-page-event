@@ -410,6 +410,10 @@ iframe {
 #sponsoring span {
     margin-right: 1em;
 }
+
+/*Insta*/
+
+
 #instafeed {
     width: 100%;
     height: auto;
@@ -450,5 +454,5 @@ iframe {
 }
 
 #instafeed a:hover .likes {
-  opacity:1;
+    opacity:.8;
 }
