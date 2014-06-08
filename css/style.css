@@ -393,3 +393,20 @@ iframe {
     background-color: #fafafa !important;
 }
 
+/* Sponsoring */
+
+#sponsor-wrap {
+    float: right !important;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 3em;
+}
+
+#sponsoring {
+    float: right !important;
+    color: rgb(140, 140, 140);
+}
+
+#sponsoring span {
+    margin-right: 1em;
+}
