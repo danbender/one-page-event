@@ -26,7 +26,6 @@ var feed = new Instafeed({
     tagName: 'mecumgraduation',
     clientId: 'eedbf467fb53470cb1552c531f45cedb',
     resolution: 'thumbnail',
-     // limit: 20,
      sortBy: 'most-liked',
      after: function () {
         var images = $("#instafeed").find('a');
